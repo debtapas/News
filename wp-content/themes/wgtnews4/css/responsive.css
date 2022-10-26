@@ -1,0 +1,269 @@
+@media screen and (max-width:1199px){
+    .custom_nav .nav_list ul li a{
+        font-size: 15px;
+    }
+    .custom_nav .nav_list ul li{
+        padding: 0 9px;
+    }
+    .footer_left{
+        padding-right: 21px;
+    }
+    .footer_middle{
+        padding: 0 26px 74px 26px;
+    }
+    .footer_right{
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width:991px){
+
+    .header_bottom .navbar-toggler span{
+        width: 30px;
+        height: 2px;
+        background: #fff;
+        display: block;
+        margin: 3px 0;
+    }
+    .header_bottom .navbar-toggler{
+        padding: 0px;
+    }
+    .custom_nav ul{
+        padding: 20px 0;
+    }
+    .custom_nav .nav_list ul li{
+        margin: 5px 0;
+    }
+    .banner_text .banner_inner_text h1{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .travel_part{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .travel_bottom h2, .travel_bottom h2 a{
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .world_text h2, .world_text h2 a{
+        font-size: 16px;
+    }
+    .world_image{
+        width: 99px;
+        height: 100px;
+    }
+    .theading_left, .travelp_heading{
+        height: 31px;
+        line-height: 31px;
+    }
+    .travel_bottomp_image{
+        height: 200px;
+    }
+    .travelbottomptext h2, .travelbottomptext h2 a{
+        font-size: 16px;
+    }
+    .travelbottomptext p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .travel_bottom_part{
+        margin-bottom: 30px;
+    }
+    .busienss_heading h2{
+        font-size: 25px;
+    }
+    .business_bottom{
+        margin-top: 20px;
+    }
+    .business_imagee{
+        height: 130px;
+    }
+    .market_text{
+        padding: 10px;
+        width: 95%;
+    }
+    .market_text h4 a{
+        font-size: 16px;
+    }
+    .travel_bottom_dateee{
+        font-size: 13px;
+    }
+    .post_left h5{
+        font-size: 14px;
+    }
+    .post_right{
+        height: 58px;
+    }
+    .hot_news h2{
+        margin-bottom: 30px;
+    }
+    .recent_news {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .recent_news_topic h2{
+        font-size: 20px;
+    }
+    .rnews_inner_right{
+        height: 140px;
+    }
+    .rnews_inner_left{
+        width: 50%;
+    }
+    .rnews_inner_left h4, .rnews_inner_left h4 a{
+        font-size: 16px;
+    }
+    .rnews_inner_left p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .news_dot {
+        padding: 0 9px;
+    }
+    .miss_image{
+        width: 100px;
+        height: 80px;
+    }
+    .miss_text h4 a, .miss_text h4{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .trending_topic {
+        margin-bottom: 30px;
+    }
+    .show_button .show_me_more{
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .footer_left{
+        border-right: 0px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:767px){
+    .header_top_inner{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .footer_left{
+        padding-right: 0px;
+    }
+    .header_left{
+        margin-bottom: 15px;
+    }
+    .header_left, .header_right{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .banner_text .banner_inner_text h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+    .banner_text .banner_inner_text h3{
+        height: 35px;
+        line-height: 35px;
+    }
+    .travel_left{
+        margin-bottom: 20px;
+    }
+
+    .travel_bottomp_left{
+        margin-bottom: 20px;
+    }
+    .trending_topic{
+        margin-top: 30px;
+    }
+    .footer_left{
+        padding-bottom: 30px;
+    }
+    .footer_middle{
+        padding: 0 0px 30px 0px;
+        border-right: 0px;
+    }
+    .footer_heading h2{
+        font-size: 16px;
+    }
+    .footer_middle ul li a{
+        font-size: 14px;
+    }
+    .footer_right p{
+        font-size: 14px;
+    }
+    .inbtns2:before, .inbtns2:after{
+        width: 40%;
+    }
+    .inbtns2{
+        margin-top: 20px;
+    }
+    .news_item_text h4, .news_item_text h4 a{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:575px){
+    .polluted_air p, .header_date{
+        font-size: 14px;
+    }
+    .header_right a{
+        margin-left: 10px;
+    }
+    .custom_nav .navbar-brand img{
+        width: 200px;
+    }
+    .banner_img img{
+        height: 200px;
+        object-fit: cover;
+    }
+    .footer_logo img{
+        width: 220px;
+    }
+}
+@media screen and (max-width:420px){
+    .recent_news_inner{
+        flex-wrap: wrap;
+    }
+    .rnews_inner_left {
+        width: 100%;
+        order: 2;
+    }
+    .rnews_inner_right{
+        width: 100%;
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .header_left{
+        flex-wrap: wrap;
+    }
+    .polluted_air{
+        margin-bottom: 10px;
+        margin-right: 0px;
+        justify-content: center;
+    }
+
+    .polluted_air, .header_date{
+        width: 100%;
+        text-align: center;
+    }
+    .polluted_air:after{
+        content: none;
+    }
+    .custom_nav .navbar-brand img {
+        width: 150px;
+    }
+    .header_bottom{
+        padding: 13px 0;
+    }
+    .banner_text .banner_inner_text p{
+        font-size: 15px;
+    }
+    .inbtns2:before, .inbtns2:after {
+        width: 33%;
+    }
+    
+}

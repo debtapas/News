@@ -1,0 +1,4 @@
+//Featured Stories section// 
+jQuery(function () {//     jQuery(".moreBox").slice(0, 3).show();//     jQuery("#loadMore").on('click', function (e) {//         e.preventDefault();//         jQuery(".moreBox:hidden").slice(0, 3).slideDown();//         if (jQuery(".moreBox:hidden").length == 0) {//             jQuery("#load").fadeOut('slow');//         }//     });// });//load more script    jQuery(".moreBox")  .slice(0, 3)  .show();jQuery(".moreBox:hidden").css("opacity", 0);jQuery("#loadMore").on("click", function(e) {  jQuery(".moreBox:hidden")    .slice(0, 3)    .slideDown("slow")    .animate(      {        opacity: 1      },      {        queue: false,        duration: "slow"      }    );  if (jQuery(".moreBox:hidden").length == 0) {    jQuery("#loadMore").fadeOut("slow");  }  e.preventDefault();});
+
+
